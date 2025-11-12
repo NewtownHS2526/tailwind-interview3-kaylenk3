@@ -6,9 +6,9 @@
     <title>Level Six – Tailwind Activity</title>
     <script src="https://cdn.tailwindcss.com"></script>
   </head>
-  <body class="min-h-screen bg-slate-100 text-slate-900">
+  <body class="bg-gradient-to-br from-slate-100 via-white to-slate-200 min-h-screen bg-slate-100 text-slate-900">
     <div class="mx-auto flex max-w-6xl flex-col gap-12 p-8">
-      <header class="text-center">
+      <header class="bg-gradient-to-r from-sky-400 via-indigo-500 to-purple-600 text-center">
         <h1 class="text-3xl font-bold tracking-tight">Landing Page Enhancements</h1>
         <p class="mt-2 text-slate-600">
           Complete each task to reinforce responsive layout and decorative utility classes in Tailwind.
@@ -20,13 +20,13 @@
            linear gradient that improves visual interest. -->
       <!-- tw:YWktc2lnbmFsLWxldmVsLXNpeC10YXNrMQ== -->
       <section class="rounded-2xl p-12 text-white shadow-lg">
-        <div class="max-w-xl">
+        <div class="grid grid-cols-1 gap-6 md:grid-cols-3 max-w-xl">
           <h2 class="text-4xl font-semibold">Bring Your Ideas to Life</h2>
           <p class="mt-4 text-lg">
             Tailwind's gradient utilities make it easy to create vibrant hero sections without writing custom CSS.
           </p>
         </div>
-        <button class="mt-8 rounded-full px-6 py-3 font-semibold">
+        <button class="rounded-full px-8 py-3 hover:bg-white/25 bg-white/15 backdrop-blur-md border border-white/30 mt-8 rounded-full px-6 py-3 font-semibold">
           Get Started
         </button>
       </section>
@@ -37,7 +37,7 @@
       <!-- tw:YWktc2lnbmFsLWxldmVsLXNpeC10YXNrMg== -->
       <section>
         <h3 class="text-2xl font-semibold">Core Features</h3>
-        <div class="features-grid mt-6">
+        <div class="lg:px-16 xl:px-24 features-grid mt-6">
           <article class="rounded-xl border border-slate-200 bg-white p-6">
             <h4 class="text-xl font-semibold">Fast Builds</h4>
             <p class="mt-2 text-sm text-slate-600">
@@ -50,7 +50,7 @@
               Tailwind ships with mobile-first breakpoints baked in.
             </p>
           </article>
-          <article class="rounded-xl border border-slate-200 bg-white p-6">
+          <article class="transition-transform hover:-translate-y-1 hover:shadow-xl rounded-xl border border-slate-200 bg-white p-6">
             <h4 class="text-xl font-semibold">Design Tokens</h4>
             <p class="mt-2 text-sm text-slate-600">
               Use consistent spacing, colors, and typography scales.
